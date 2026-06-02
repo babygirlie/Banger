@@ -20,13 +20,13 @@ function startExperience() {
     window.location.hash = "s2";
 }
 
-// 3. SURPRISE POP-UP (Page 9)
+// 3. SURPRISE POP-UP (Page 11)
 function showSurprise() {
     const container = document.getElementById('popImg');
     container.classList.add('active');
 }
 
-// 4. CAKE CUTTING & FIREWORKS (Page 10)
+// 4. CAKE CUTTING & FIREWORKS (Page 12)
 function handleCake() {
     const cake = document.getElementById('cakeDisplay');
     const msg = document.getElementById('cakeMsg');
