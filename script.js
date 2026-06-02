@@ -26,7 +26,7 @@ function showSurprise() {
     container.classList.add('active');
 }
 
-// 4. CAKE CUTTING & FIREWORKS (Page 12)
+// 4. CAKE CUTTING & FIREWORKS (Page 12 & 13)
 function handleCake() {
     const cake = document.getElementById('cakeDisplay');
     const msg = document.getElementById('cakeMsg');
