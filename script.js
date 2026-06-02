@@ -30,16 +30,21 @@ function showSurprise() {
 function handleCake() {
     const cake = document.getElementById('cakeDisplay');
     const msg = document.getElementById('cakeMsg');
-    
-    cake.innerHTML = "🍰"; 
+
+    cake.innerHTML = "🍰";
     msg.innerHTML = "HAPPY 2nd ANNIVERSARY WOMAN! ❤️";
     msg.style.color = "#ff00ff";
     msg.style.textShadow = "0 0 15px #ff00ff";
 
-    // Launch 50 firework particles from the center
+    // Launch 60 firework particles from the center
     for (let i = 0; i < 60; i++) {
         createFirework();
     }
+
+    // NEW: Wait 3 seconds (3000ms) for fireworks to finish, then automatically go to Page 13!
+    setTimeout(() => {
+        window.location.hash = 's13';
+    }, 3000); 
 }
 
 // 5. FIREWORK ENGINE
